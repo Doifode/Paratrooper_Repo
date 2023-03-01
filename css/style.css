@@ -2,9 +2,7 @@
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
-
 }
-
 
 .loginBtn:hover {
   background-color: #c42b38;
@@ -17,7 +15,7 @@ ul li a {
   margin: 0px 15px;
   /* padding: 0px 10px; */
   margin-right: 10px;
-  transition: .05s;
+  transition: 0.05s;
 }
 
 ul li a:hover {
@@ -25,7 +23,6 @@ ul li a:hover {
 }
 
 .navbarBlur {
-
   background-color: #ffffff;
   width: 1116px;
   backdrop-filter: blur(13px);
@@ -61,9 +58,6 @@ ul li {
 .loginBtn:hover {
   background-color: #c42b38;
 }
-
-
-
 
 .text-color {
   color: #a21c28;
@@ -121,7 +115,6 @@ ul li {
 
 .ExpertiesHeading {
   background-color: #f5f5f5;
-
 }
 /*Domain section  css */
 
@@ -130,7 +123,6 @@ ul li {
   background-color: #f6f3f3;
   padding-bottom: 0px;
   margin-top: 79px;
-
 }
 
 .domain .d-inline {
@@ -138,7 +130,7 @@ ul li {
 }
 
 .domain .light-text {
-  color: #A21C28;
+  color: #a21c28;
 }
 
 /* .domain .d-Eline{
@@ -181,7 +173,7 @@ color: #A21C28;
 }
 
 .bgContainer {
-  background-color: #F7F7FB;
+  background-color: #f7f7fb;
 }
 
 .grayWord {
@@ -189,20 +181,20 @@ color: #A21C28;
 }
 
 .redWord {
-  color: #A21C28;
+  color: #a21c28;
 }
 
 /* contact us */
 .our {
-  color: #C0C0C0;
+  color: #c0c0c0;
 }
 
 .contact {
-  color: #A21C28;
+  color: #a21c28;
 }
 
 .contact-row {
-  background-color: #F7F7FB;
+  background-color: #f7f7fb;
 }
 
 .Our-contact-heading {
@@ -228,11 +220,40 @@ tr {
 }
 
 .contact-button {
-  background-color: #A21C28;
+  background-color: #a21c28;
   color: white;
   border-radius: 10px;
 }
 
 .contact-button:hover {
   color: white;
+}
+/* footer  */
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif !important;
+  font-size: small;
+  font-style: normal;
+  font-weight: 100;
+}
+
+.footer {
+  padding-left: 50px;
+}
+
+.company li {
+  padding-top: 10px;
+}
+
+.links div {
+  margin-right: 10px;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .footer {
+    padding-left: 0px !important;
+  }
 }

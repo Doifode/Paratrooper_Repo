@@ -258,9 +258,14 @@ tr {
     padding-left: 0px !important;
   }
 }
-.chat{
+
+ .chat {
   position: fixed;
   bottom: 0;
-  right: 0;
-  left: 10;
+  background: transparent;
+  right: 100px;
+  z-index: 999;
+}   
+.message-icon {
+  border-radius: 25px;
 }

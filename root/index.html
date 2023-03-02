@@ -17,8 +17,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
-
-
   <title>Document</title>
 </head>
 
@@ -27,13 +25,13 @@
     <img src="/assets/images/chat.png" class="img-fluid" style="width: 100px;" alt="" >
   </span>
   <div class="container">
-    <div class=" top-0 p-0 container w-100">
+    <div class="top-0 p-0 container w-100">
       <div class="d-flex navbarBlur  position-fixed   justify-content-around py-3  align-item-center"
-        style="width:1116px">
+        style="width:1120px">
         <div class="LogoWraper justify-content-start align-item-center">
           <img src="/assets/images/Asset 1.png" width="126px" height="45px" alt="">
         </div>
-        <ul class="nav justify-content-end ">
+        <ul class="nav justify-content-end">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
@@ -44,7 +42,7 @@
             <a class="nav-link" href="#">Blog </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link ">Contact</a>
+            <a class="nav-link" href="#contact-us">Contact</a>
           </li>
           <button class="loginBtn"> Login</button>
         </ul>
@@ -56,8 +54,15 @@
         <div class="col -md-5">
           <div class="FirstHeading  d-flex  h-100  justify-content-center align-items-center ">
             <div class=" ">
-              <h1> #Para <span class="text-color">Troopers-</span></h1>
-              <h3> Enjoy to working With Us! </h3>
+              <div class="d-flex">
+                <span>
+                  <h1 class="fw-bold Hero-heading">#Para</h1>
+                </span>
+                <span>
+                  <h1 class="Hero-text fw-bold">Troopers -</h1>
+                </span>
+              </div>
+              <h3 class="fw-bold"> Enjoy to working With Us! </h3>
               <p class="HomePara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
               </p>
               <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
@@ -85,7 +90,7 @@
         </div>
         <div class="col -md-7">
           <div class="HomeHeroImage float-start   w-100 d-flex justify-content-around align-items-center">
-            <img src="/assets/images/Mask Group 2.png" height="420 " width="550" alt="">
+            <img src="/assets/images/Mask Group 2.png" class="img-fluid" alt="">
           </div>
         </div>
       </div>
@@ -93,53 +98,53 @@
     <!--Domain code-->
     <section id="demo">
       <!--Domain section.-->
-      <div class="domain">
+      <div class="domain pt-5">
         <h1>
           <span>
-            <h1 class="d-inline"> Domain</h1>
+            <h1 class="d-inline fw-bold mb-0"> Domain</h1>
           </span>
           <span>
-            <h1 class="d-inline light-text">Expertise </h1>
+            <h1 class="d-inline light-text fw-bold mb-0">Expertise </h1>
           </span>
         </h1>
-        <p id="subdomain">We bring Excellence with</p>
+        <p id="subdomain" class="fw-bold">We bring Excellence with</p>
         <div class="imgdiv">
-          <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
             <div class="col">
               <div class="card">
                 <img src="/assets/images/oilgas1.png" class="card-img-top" alt="..." />
               </div>
-              <h5 class="card-title">Oil & Gas</h5>
+              <h5 class="card-title fw-bold">Oil & Gas</h5>
             </div>
             <div class="col">
               <div class="card">
                 <img src="/assets/images/manufacturing.png" class="card-img-top" alt="..." />
               </div>
-              <h5 class="card-title">Manufacturing</h5>
+              <h5 class="card-title fw-bold">Manufacturing</h5>
             </div>
             <div class="col">
               <div class="card">
                 <img src="/assets/images/health.png" class="card-img-top" alt="..." />
               </div>
-              <h5 class="card-title">Health Care</h5>
+              <h5 class="card-title fw-bold">Health Care</h5>
             </div>
             <div class="col">
               <div class="card">
                 <img src="/assets/images/elearning.png" class="card-img-top" alt="..." />
               </div>
-              <h5 class="card-title">eLearning</h5>
+              <h5 class="card-title fw-bold">eLearning</h5>
             </div>
             <div class="col">
               <div class="card">
                 <img src="/assets/images/automobile.png" class="card-img-top" alt="..." />
               </div>
-              <h5 class="card-title">Automobile</h5>
+              <h5 class="card-title fw-bold">Automobile</h5>
             </div>
             <div class="col">
               <div class="card">
                 <img src="/assets/images/earth.png" class="card-img-top" alt="..." />
               </div>
-              <h5 class="card-title">Earth Data Science</h5>
+              <h5 class="card-title fw-bold">Earth Data Science</h5>
             </div>
           </div>
         </div>
@@ -149,13 +154,19 @@
     <section>
       <div class="container bgContainer">
         <div class="row py-5">
-          <h3 class="text-center">
-            <span class="grayWord fw-bold">Our</span>
-            <span class="redWord fw-bold"> Client</span>
-            <span class="grayWord fw-bold"> Says</span>
-          </h3>
+          <div class="d-flex justify-content-center">
+            <span class="grayWord">
+              <h1 class="fw-bold">Our</h1>
+            </span>&nbsp;
+            <span class="redWord">
+              <h1 class="fw-bold">Client</h1>
+            </span>&nbsp;
+            <span class="grayWord">
+              <h1 class="fw-bold">Says</h1>
+            </span>
+          </div>
           <p class="text-center">
-            <b>Our Amazing Clients Around the World!</b>
+            <b class="fw-bold">Our Amazing Clients Around the World!</b>
           </p>
         </div>
         <div class="row">
@@ -284,7 +295,6 @@
                 </div>
               </div>
             </div>
-
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1">
@@ -300,12 +310,18 @@
       </div>
     </section>
     <!-- Contact Us Starts -->
-    <section>
+    <section id="contact-us">
       <div class="container contact-row" id="contact-us">
         <div class="row  pt-4 pb-4">
           <div class="col text-center">
-            <h3 class="Our-contact-heading"><span class="our fw-bold mb-0">Our</span>&nbsp;<span
-                class="contact fw-bold">Contact</span></h3>
+            <div class="d-flex justify-content-center">
+              <span class="Our-contact-heading">
+                <h1 class="our fw-bold mb-0">Our</h1>
+              </span>&nbsp;
+              <span>
+                <h1 class="contact fw-bold">Contact</h1>
+              </span>
+            </div>
             <span class="fw-bold mt-0">Always Live & Listening</span>
           </div>
         </div>
@@ -317,15 +333,15 @@
             <table>
               <tr>
                 <td><i class="bi bi-telephone contact fw-bold"></i></td>
-                <td class="fw-bold ps-3">+91 9561095848</td>
+                <td class="fw-bold text-dark ps-3"><a href="tel:+91 9561095848" class="text-dark">+91 9561095848</a></td>
               </tr>
               <tr>
                 <td><i class="bi bi-envelope contact fw-bold"></i></td>
-                <td class="fw-bold ps-3">businessenquiry@parallel-minds.com</td>
+                <td class="fw-bold text-dark ps-3"><a href="mailto:businessenquiry@parallel-minds.com" class="text-dark">businessenquiry@parallel-minds.com</a></td>
               </tr>
               <tr>
                 <td><i class="bi bi-globe contact fw-bold"></i></td>
-                <td class="fw-bold ps-3">parallel-minds.com</td>
+                <td class="fw-bold  ps-3"><a href="http://parallelminds.in/" class="text-dark">parallel-minds.com</a></td>
               </tr>
             </table>
           </div>
@@ -364,52 +380,48 @@
         </div>
       </div>
     </section>
-    <!-- footer  -->/
-    <sction>
-      <div class="container">
-        <div class="container text-white bg-dark">
-          <footer class="border-top py-5">
-            <div class="row">
-              <div class="col-md-6 col-sm-12 footer">
-                <a href="/" class="d-flex align-items-center mb-4 link-dark text-decoration-none">
-                  <img src="/assets/images/pm-logo-white.png" alt="" hight="80px" width="150px ">
-                </a>
-                <p5 class=" text-white "> Copyright @ All rights reserved Parallel Minds</p5>
-              </div>
-              <div class="col-md-3 col-sm-12">
-                <h5 class=" py-3"> Company</h5>
-                <ul class="company">
-                  <li> Home</li>
-                  <li> Why Choose Us</li>
-                  <li> Blog</li>
-                  <li> Contact </li>
-                </ul>
-              </div>
-
-              <div class="col-md-3 col-sm-12">
-                <div class="row text-white">
-                  <h5 class="">Stay up to date</h5>
-                  <div class="row links">
-                    <div class="col-md-1">
-                      <img src="/assets/images/twitter.svg" alt="" height="20px" class="ms-0 ">
-                    </div>
-                    <div class="col-md-1">
-                      <img src="/assets/images/facebook.svg" alt="" height="20px" class="ms-3">
-                    </div>
-
-                    <div class="col-md-1">
-                      <img src="/assets/images/linkedin.svg" alt="" height="20px" class="ms-3">
-                    </div>
-                    <div class="col-md-1">
-                      <img src="/assets/images/insta.svg" alt="" height="20px" class="ms-4">
-                    </div>
+    <!-- footer  -->
+    <section>
+      <div class="container text-white bg-dark">
+        <footer class="border-top py-5">
+          <div class="row">
+            <div class="col-md-6 col-sm-12 footer">
+              <a href="/" class="d-flex align-items-center mb-4 link-dark text-decoration-none">
+                <img src="/assets/images/pm-logo-white.png" alt="" hight="80px" width="150px ">
+              </a>
+              <p class=" text-white "> Copyright @ All rights reserved Parallel Minds</p>
+            </div>
+            <div class="col-md-3 col-sm-12">
+              <h5 class=" py-3"> Company</h5>
+              <ul class="company">
+                <li> Home</li>
+                <li> Why Choose Us</li>
+                <li> Blog</li>
+                <li> Contact </li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-sm-12">
+              <div class="row text-white">
+                <h5 class="">Stay up to date</h5>
+                <div class="row links">
+                  <div class="col-md-1">
+                    <img src="/assets/images/twitter.svg" alt="" height="20px" class="ms-0 ">
+                  </div>
+                  <div class="col-md-1">
+                    <img src="/assets/images/facebook.svg" alt="" height="20px" class="ms-3">
+                  </div>
+                  <div class="col-md-1">
+                    <img src="/assets/images/linkedin.svg" alt="" height="20px" class="ms-3">
+                  </div>
+                  <div class="col-md-1">
+                    <img src="/assets/images/insta.svg" alt="" height="20px" class="ms-4">
                   </div>
                 </div>
               </div>
-          </footer>
-        </div>
+            </div>
+        </footer>
       </div>
-    </sction>
+    </section>
   </div>
 </body>
 

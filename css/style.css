@@ -269,3 +269,14 @@ tr {
 .message-icon {
   border-radius: 25px;
 }
+
+
+.modal-content {
+  position: static;
+  width: 900px;
+  height: 400px;
+  flex-direction: column;
+  margin-top: 130px;
+  
+
+}

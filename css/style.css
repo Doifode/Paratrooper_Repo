@@ -258,3 +258,15 @@ tr {
     padding-left: 0px !important;
   }
 }
+
+
+
+.modal-content {
+  position: static;
+  width: 900px;
+  height: 400px;
+  flex-direction: column;
+  margin-top: 130px;
+  
+
+}

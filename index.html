@@ -18,15 +18,16 @@
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
   <title>Document</title>
+
 </head>
 
 <body>
 
-  <div class="container">
-    
-    <div class="top-0 p-0 container w-100">
+  <div class="container-fluid">
+
+    <div class="top-0 p-0   w-100">
       <div class="d-flex navbarBlur  position-fixed   justify-content-around py-3  align-item-center"
-        style="width:1120px">
+        style="width:100%">
         <div class="LogoWraper justify-content-start align-item-center">
           <img src="/assets/images/Asset 1.png" width="126px" height="45px" alt="">
         </div>
@@ -362,9 +363,45 @@
           </div>
           <div class="col p-5">
             <div class="d-flex justify-content-between">
-              <h5 class="fw-bold">Get in Touch</h5>  <div class="chat">
-                <img src="/assets/images/newmessage.jpg" class="img-fluid message-icon" style="width: 50px;" alt="">
+              <h5 class="fw-bold">Get in Touch</h5>
+              <div class="chat">
+
+                <textarea name="" id="ChatText" cols="30" rows="10" class="form-control text-left">
+                  </textarea>
+                <button onclick="printMsg()" class="btn btn-sm btn-success"> send</button>
+
+
+
+                <img src="/assets/images/newmessage.jpg" class="img-fluid message-icon" id="chatid" style="width: 50px;"
+                  id="ChatIcon">
               </div>
+
+
+
+              <script>
+
+                const chat = document.getElementById('chatid')
+                const ChatText = document.getElementById('ChatText')
+                const ChatText1 = document.getElementById('ChatText')
+                let val = false
+
+                chat.addEventListener('click', () => {
+                  val = !val
+                  if (val) {
+                    ChatText.style.display = "block"
+
+                  } else {
+                    ChatText.style.display = "none"
+
+                  }
+                  console.log(val)
+                })
+                const printMsg = () => {
+                  let usernm = ChatText.value
+                  alert("hi " + " " + usernm + " how are you")
+                }
+              </script>
+
             </div>
             <form>
               <div class="row">
@@ -385,8 +422,9 @@
               </div>
               <div class="row">
                 <div class="col">
-                  <textarea name="message" class="form-control custom-rounded  contact-form contact-form mt-3" id=""
-                    cols="30" rows="5" placeholder="Your Message"></textarea>
+                  <textarea name="message" aria-placeholder="Enter your namem ........."
+                    class="form-control custom-rounded  contact-form contact-form mt-3" id="" cols="30" rows="5"
+                    placeholder="Your Message"></textarea>
                 </div>
               </div>
               <div class="row">

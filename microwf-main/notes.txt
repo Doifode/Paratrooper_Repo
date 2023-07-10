@@ -1,0 +1,24 @@
+notes:
+
+- [ ] Build required that only triggers when a new tag is provided
+  - for publishing nuget-packages for a release
+  - consider a drone.io build
+
+- [ ] WorkItem Id as Guid
+
+----------------------------------------------------------------------------------------------------
+EF commands:
+- see: https://docs.microsoft.com/en-us/ef/core/miscellaneous/cli/dotnet
+
+- dotnet ef migrations add Initial -c DomainContext -o Api/Domain/Data
+- dotnet ef migrations add Initial -c STSDbContext -o STS/Domain/Data
+
+----------------------------------------------------------------------------------------------------
+Build samples:
+- ./build.sh "pack --version=3.1.0"
+
+----------------------------------------------------------------------------------------------------
+Global tools in docker container issue:
+- dotnet tool install --global dotnet-outdated-tool
+- dotnet tool install --global dotnet-ef
+- export PATH="$PATH:/home/vscode/.dotnet/tools"

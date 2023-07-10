@@ -1,0 +1,8 @@
+C:\DdriveData\PARATROOPER_REPO\Paratrooper_Repo\TaskShedulingProject\bin\Debug\TaskShedulingProject.exe.config
+C:\DdriveData\PARATROOPER_REPO\Paratrooper_Repo\TaskShedulingProject\bin\Debug\TaskShedulingProject.exe
+C:\DdriveData\PARATROOPER_REPO\Paratrooper_Repo\TaskShedulingProject\bin\Debug\TaskShedulingProject.pdb
+C:\DdriveData\PARATROOPER_REPO\Paratrooper_Repo\TaskShedulingProject\obj\Debug\TaskSchedulingProject.csproj.AssemblyReference.cache
+C:\DdriveData\PARATROOPER_REPO\Paratrooper_Repo\TaskShedulingProject\obj\Debug\TaskSchedulingProject.csproj.SuggestedBindingRedirects.cache
+C:\DdriveData\PARATROOPER_REPO\Paratrooper_Repo\TaskShedulingProject\obj\Debug\TaskSchedulingProject.csproj.CoreCompileInputs.cache
+C:\DdriveData\PARATROOPER_REPO\Paratrooper_Repo\TaskShedulingProject\obj\Debug\TaskShedulingProject.exe
+C:\DdriveData\PARATROOPER_REPO\Paratrooper_Repo\TaskShedulingProject\obj\Debug\TaskShedulingProject.pdb

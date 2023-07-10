@@ -1,0 +1,49 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "build",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build:targets",
+      "program": "${workspaceFolder}/build/bin/Debug/net7.0/targets.dll",
+      "args": [
+        "pack --version=0.0.2&key=1234567890"
+      ],
+      "cwd": "${workspaceFolder}/build",
+      "stopAtEntry": false,
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "WebApi",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build:WebApi",
+      "program": "${workspaceRoot}/samples/WebApi/bin/Debug/net7.0/WebApi.dll",
+      "args": [
+        "--urls",
+        "https://localhost:5001"
+      ],
+      "cwd": "${workspaceRoot}/samples/WebApi",
+      "stopAtEntry": false,
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "sourceFileMap": {
+        "/Views": "${workspaceRoot}/Views"
+      },
+      "console": "integratedTerminal",
+    },
+    {
+      "name": "ConsoleClient",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build:ConsoleClient",
+      "program": "${workspaceRoot}/samples/ConsoleClient/bin/Debug/net7.0/ConsoleClient.dll",
+      "args": [],
+      "cwd": "${workspaceRoot}/samples/ConsoleClient",
+      "stopAtEntry": false,
+      "console": "integratedTerminal"
+    }
+  ]
+}

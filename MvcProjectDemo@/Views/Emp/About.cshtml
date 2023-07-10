@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "About";
+}
+@*This is inline helper we can only used in this file*@
+<div>
+    @helper ListOfCorses(string[] course)
+    {
+        <ul>
+            @foreach (var item in course)
+            {
+                <li>@item</li>
+
+            }
+        </ul>
+    }
+    <div>
+        <label><b>Course List -1 For BackEnd Developer</b></label>
+        <div>
+            @ListOfCorses(new string[] { "PHP", "JAVA", "C#" })
+        </div>
+
+    </div>
+    <div>
+        <label><b>Course List -2 For Front-End Developer</b></label>
+        <div>
+            @ListOfCorses(new string[] { "Angular", "ReactJs", "JQuery" })
+        </div>
+
+    </div>
+
+</div>
+

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Cache\" />
+    <Folder Include="Email\" />
+    <Folder Include="Excel\" />
+    <Folder Include="Image\" />
+    <Folder Include="Storage\" />
+    <Folder Include="PDF\" />
+  </ItemGroup>
+
+</Project>

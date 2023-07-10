@@ -1,0 +1,51 @@
+﻿@model StudentDetails.Models.Student
+
+@{
+    ViewBag.Title = "Add Student";
+    Layout = null;
+}
+
+<h2>Add Student</h2>
+
+@using (Html.BeginForm("Create", "Students", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Name)
+        @Html.TextBoxFor(model => model.Name, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.State)
+        @Html.TextBoxFor(model => model.State, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.State, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.District)
+        @Html.TextBoxFor(model => model.District, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.District, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Villege)
+        @Html.TextBoxFor(model => model.Villege, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Villege, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Marks)
+        @Html.TextBoxFor(model => model.Marks, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Marks, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Add" class="btn btn-primary" />
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

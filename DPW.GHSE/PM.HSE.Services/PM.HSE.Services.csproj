@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Action\" />
+    <Folder Include="Assessment\" />
+    <Folder Include="Audit\" />
+    <Folder Include="Awards\" />
+    <Folder Include="Basic\" />
+    <Folder Include="DMP\" />
+    <Folder Include="Enhancement\" />
+    <Folder Include="General\" />
+    <Folder Include="Hazard\" />
+    <Folder Include="HSEP\" />
+    <Folder Include="Incident\" />
+    <Folder Include="Inspection\" />
+    <Folder Include="Interaction\" />
+    <Folder Include="Meeting\" />
+    <Folder Include="Matrics\" />
+    <Folder Include="WorkflowProces\" />
+    <Folder Include="Workflow\" />
+    <Folder Include="Standalone\" />
+    <Folder Include="RCCA\" />
+    <Folder Include="Rba\" />
+  </ItemGroup>
+
+</Project>

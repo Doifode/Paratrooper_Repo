@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ProjectForSP-Calling.props" />
+</Project>

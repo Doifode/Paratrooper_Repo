@@ -1,0 +1,15 @@
+C:\DdriveData\PARATROOPER_REPO\Paratrooper_Repo\HackerRankProblems\SubarrayDivision\bin\Debug\net6.0\SubarrayDivision.exe
+C:\DdriveData\PARATROOPER_REPO\Paratrooper_Repo\HackerRankProblems\SubarrayDivision\bin\Debug\net6.0\SubarrayDivision.deps.json
+C:\DdriveData\PARATROOPER_REPO\Paratrooper_Repo\HackerRankProblems\SubarrayDivision\bin\Debug\net6.0\SubarrayDivision.runtimeconfig.json
+C:\DdriveData\PARATROOPER_REPO\Paratrooper_Repo\HackerRankProblems\SubarrayDivision\bin\Debug\net6.0\SubarrayDivision.dll
+C:\DdriveData\PARATROOPER_REPO\Paratrooper_Repo\HackerRankProblems\SubarrayDivision\bin\Debug\net6.0\SubarrayDivision.pdb
+C:\DdriveData\PARATROOPER_REPO\Paratrooper_Repo\HackerRankProblems\SubarrayDivision\obj\Debug\net6.0\SubarrayDivision.csproj.AssemblyReference.cache
+C:\DdriveData\PARATROOPER_REPO\Paratrooper_Repo\HackerRankProblems\SubarrayDivision\obj\Debug\net6.0\SubarrayDivision.GeneratedMSBuildEditorConfig.editorconfig
+C:\DdriveData\PARATROOPER_REPO\Paratrooper_Repo\HackerRankProblems\SubarrayDivision\obj\Debug\net6.0\SubarrayDivision.AssemblyInfoInputs.cache
+C:\DdriveData\PARATROOPER_REPO\Paratrooper_Repo\HackerRankProblems\SubarrayDivision\obj\Debug\net6.0\SubarrayDivision.AssemblyInfo.cs
+C:\DdriveData\PARATROOPER_REPO\Paratrooper_Repo\HackerRankProblems\SubarrayDivision\obj\Debug\net6.0\SubarrayDivision.csproj.CoreCompileInputs.cache
+C:\DdriveData\PARATROOPER_REPO\Paratrooper_Repo\HackerRankProblems\SubarrayDivision\obj\Debug\net6.0\SubarrayDivision.dll
+C:\DdriveData\PARATROOPER_REPO\Paratrooper_Repo\HackerRankProblems\SubarrayDivision\obj\Debug\net6.0\refint\SubarrayDivision.dll
+C:\DdriveData\PARATROOPER_REPO\Paratrooper_Repo\HackerRankProblems\SubarrayDivision\obj\Debug\net6.0\SubarrayDivision.pdb
+C:\DdriveData\PARATROOPER_REPO\Paratrooper_Repo\HackerRankProblems\SubarrayDivision\obj\Debug\net6.0\SubarrayDivision.genruntimeconfig.cache
+C:\DdriveData\PARATROOPER_REPO\Paratrooper_Repo\HackerRankProblems\SubarrayDivision\obj\Debug\net6.0\ref\SubarrayDivision.dll

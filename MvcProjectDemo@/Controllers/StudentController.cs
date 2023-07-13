@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Web.Mvc;
+using System.Web.SessionState;
 using MvcProjectDemo_.Models;
 
 namespace MvcProjectDemo_.Controllers
@@ -14,6 +15,13 @@ namespace MvcProjectDemo_.Controllers
             new Student{Id=3, Name="Yash", State="Maharashtra", District="Mumbai", Villege="new mumbai", Marks=88.50},
             new Student{Id=4, Name="Vedant", State="Maharashtra", District="Pune", Villege="Akurdi", Marks=77.50}
         };
+        
+        //static IList<Student> studentList = new List<Student>{
+        //        new Student() { Id=1, Name="kiran", State="Maharashtra", District="Jalgon", Villege="kingaon", Marks=70.50 } ,
+        //        new Student() { Id=1, Name="kiran", State="Maharashtra", District="Jalgon", Villege="kingaon", Marks=70.50 } ,
+        //        new Student() { Id=1, Name="kiran", State="Maharashtra", District="Jalgon", Villege="kingaon", Marks=70.50 } ,
+          
+        //    };
 
         // GET: Students
         public ActionResult Index()
@@ -26,9 +34,12 @@ namespace MvcProjectDemo_.Controllers
         {
             return View();
         }
+        
 
         // POST: Students/Create
         [HttpPost]
+        // manipulation of the httpVerbs now Create method handle the both http request Post and Head.
+        // [AcceptVerbs(HttpVerbs.Post | HttpVerbs.Head) ]
         public ActionResult Create(Student student)
         {
             if (ModelState.IsValid)
